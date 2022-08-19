@@ -22,7 +22,9 @@ header, main, footer{
 header {
     margin: auto;
 }
-
+.color_nav{
+    background: rgb(86, 88, 206) !important;
+}
 
 main{
     height: auto;
@@ -68,6 +70,8 @@ main{
     height: 600px;
     background: violet;
 }
+
+
 @media (max-width: 991.98px) { 
     .carousel-inner{
         height: 50vh;
