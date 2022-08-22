@@ -38,7 +38,7 @@
     <main>
         <!-- Carusell banner -->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div class="caja_ca carousel-inner">
                 <div class="carousel-item active">
                     <img src="https://cdn.pixabay.com/photo/2022/02/12/21/37/woman-7009979_960_720.jpg"
                         class="d-block w-100" alt="...">
@@ -65,15 +65,16 @@
         </div>
         <!--Seccion de ropa por genero-->
         <section class="container-fluid destacados">
-            <h1 class="text-center">Genero</h1>
-            <div class="container text-center">
+            <h1 class="titulo_genero text-center">Genero</h1>
+            <div class="caja_genero container text-center">
                 <div class="row align-items-start">
                     <div class="col">
                         <div class="card text-bg-dark">
                             <img src="https://i.pinimg.com/564x/10/d2/d9/10d2d9fb6d7538c23b791874472b6703.jpg"
                                 class="img-fluid" alt="ropa formal">
                             <div class="card-img-overlay">
-                                <h1 class="titulo_targeta card-title bg-primary" style="--bs-bg-opacity: .5;">masculino
+                                <h1 class="titulo_targeta card-title bg-primary" style="--bs-bg-opacity: .5;"><a
+                                        href="#">masculino</a>
                                 </h1>
                             </div>
                         </div>
@@ -83,8 +84,8 @@
                             <img src="https://i.pinimg.com/564x/25/b8/ee/25b8eefbdb28c6100fa4c76aa3d8f0d9.jpg"
                                 class="img-fluid" alt="ropa casual">
                             <div class="card-img-overlay">
-                                <h1 class="titulo_targeta card-title bg-primary" style="--bs-bg-opacity: .5;">sin genero
-                                </h1>
+                                <h1 class="titulo_targeta card-title bg-primary" style="--bs-bg-opacity: .5;"><a
+                                        href="#">sin genero</a></h1>
                             </div>
                         </div>
                     </div>
@@ -93,8 +94,8 @@
                             <img src="https://i.pinimg.com/736x/ce/91/54/ce91543f3da25529956979e0e174b52b.jpg"
                                 class="img-fluid" alt="formal femenino">
                             <div class="card-img-overlay">
-                                <h1 class="titulo_targeta card-title bg-primary" style="--bs-bg-opacity: .5;">femenino
-                                </h1>
+                                <h1 class="titulo_targeta card-title bg-primary" style="--bs-bg-opacity: .5;"><a
+                                        href="">femenino</a></h1>
                             </div>
                         </div>
                     </div>
@@ -104,50 +105,73 @@
 
         <!-- Seccion ropa por tipo  -->
         <section class="tipo_prod">
-            <div class="row justify-content-around cajas_tipo_prod">
-                <div class="col-2">
-                    <div class="card text-center text-bg-primary" >
-                        <img src="https://i.pinimg.com/564x/f4/80/6a/f4806ae4fd39fdfdf974a57639516f12.jpg" class="card-img-top" alt="...">
+            <h1 class="titulo_genero text-center">tipos productos</h1>
+            
+            <div class=" row row-cols-2 row-cols-sm-3 row-cols-md-5 ">
+                <div class="col">
+                    <div class="card text-center text-bg-primary">
+                        <img src="https://i.pinimg.com/564x/dd/af/0c/ddaf0cb45bfcccd3d160d0562bd26bed.jpg"
+                            class="card-img-top" alt="...">
                         <div class="card-body card-img-overlay">
                             <h2 class="card-title">remeras</h2>
                             <a href="#" class="btn btn-primary">ver mas</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="card text-center text-bg-primary" style="width: 18rem;">
-                        <img src="https://i.pinimg.com/564x/d2/08/84/d2088414dfb63d9a171c26b9ec2e5b18.jpg" class="card-img-top" alt="...">
+                <div class="col">
+                    <div class="card text-center text-bg-primary">
+                        <img src="https://i.pinimg.com/564x/8a/08/f6/8a08f6ebc7ca496f2ac4b65378f20b1f.jpg"
+                            class="card-img-top" alt="...">
                         <div class="card-body card-img-overlay">
                             <h2 class="card-title">camperas</h2>
                             <a href="#" class="btn btn-primary">ver mas</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="card text-center text-bg-primary" style="width: 18rem;">
-                        <img src="https://i.pinimg.com/564x/89/fa/69/89fa69e08b824d25c68bf8b5689af117.jpg" class="card-img-top" alt="...">
+                <div class="col">
+                    <div class="card text-center text-bg-primary">
+                        <img src="https://i.pinimg.com/564x/c7/f6/bd/c7f6bdef61e2558147339c0057eee2e8.jpg"
+                            class="card-img-top" alt="...">
                         <div class="card-body card-img-overlay">
                             <h2 class="card-title">camisas</h2>
                             <a href="#" class="btn btn-primary">ver mas</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="card text-center text-bg-primary" style="width: 18rem;">
-                        <img src="https://i.pinimg.com/564x/05/5e/06/055e06bd4bf0b24bbb1bd91b13d10c11.jpg" class="card-img-top" alt="...">
+                <div class="col">
+                    <div class="card text-center text-bg-primary">
+                        <img src="https://i.pinimg.com/564x/05/5e/06/055e06bd4bf0b24bbb1bd91b13d10c11.jpg"
+                            class="card-img-top" alt="...">
                         <div class="card-body card-img-overlay">
-                            <h2 class="card-title">pantalones</h2>
+                            <h2 class="card-title">pantalon</h2>
                             <a href="#" class="btn btn-primary">ver mas</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="card text-center text-bg-primary" style="width: 18rem;">
-                        <img src="https://i.pinimg.com/564x/64/72/c6/6472c64fa4442a4f16731fc86fa2e48c.jpg" class="card-img-top" alt="...">
+                <div class="col">
+                    <div class="card text-center text-bg-primary">
+                        <img src="https://i.pinimg.com/564x/f6/d9/d8/f6d9d8833a490751c0f588a5ea100912.jpg"
+                            class="card-img-top" alt="...">
                         <div class="card-body card-img-overlay">
                             <h2 class="card-title">busos</h2>
                             <a href="#" class="btn btn-primary">ver mas</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- seccion on sale -->
+        <section class="onsale">
+            <h1 class="titulo_genero text-center">Destacados</h1>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        
+                    </div>
+                    <div class="carousel-item">
+                    </div>
+                    <div class="carousel-item">
                     </div>
                 </div>
             </div>
