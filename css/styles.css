@@ -51,7 +51,7 @@ main {
     object-fit: cover;
 }
 
-.destacados, .tipo_prod, .onsale, .footer{
+.destacados, .tipo_prod, .onsale, .footer, .formulario_contact{
     margin-top: 80px;
 }
 /* FIN BANNER */
@@ -281,8 +281,12 @@ footer {
     font-size: 18px;
     text-align: left;
 }
-
 /* ++ Fin Footer ++ */
+/* ++ CONTACTOS ++ */
+.contenedor_form{
+    width: 700px;
+    margin: auto;
+}
 
 @media (max-width: 991.98px) {
 
@@ -292,7 +296,7 @@ footer {
         width: 95%;
         margin: auto;
     }
-    .destacados, .tipo_prod, .onsale, .footer{
+    .destacados, .tipo_prod, .onsale, .footer,.formulario_contact{
         margin-top: 80px;
     }
     .color_nav {
@@ -314,6 +318,10 @@ footer {
         width: 100%;
         height: auto;
     }
+    .contenedor_form{
+        width: 80%;
+        margin: auto;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -324,7 +332,7 @@ footer {
         width: 100%;
         margin: auto;
     }
-    .destacados, .tipo_prod, .onsale, .footer{
+    .destacados, .tipo_prod, .onsale, .footer, .formulario_contact{
         margin-top: 80px;
     }
     .tipo_prod {
@@ -341,6 +349,10 @@ footer {
     .onsale .card {
         margin-top: 20px;
     }
+    .contenedor_form{
+        width: 80%;
+        margin: auto;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -351,7 +363,7 @@ footer {
         width: 100%;
         margin: auto;
     }
-    .destacados, .tipo_prod, .onsale, .footer{
+    .destacados, .tipo_prod, .onsale, .footer,.formulario_contact{
         margin-top: 80px;
     }
     .carousel-inner {
@@ -385,5 +397,8 @@ footer {
     .onsale .card {
         margin-top: 20px;
     }
-
+    .contenedor_form{
+        width: 85%;
+        margin: auto;
+    }
 }

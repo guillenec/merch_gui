@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap merchandising</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="color_nav navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">merchandising</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="formulario_contact">
+            <h1 class="titulo_genero text-center">contactanos</h1>
+                <section class="contenedor_form">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="validationServer01" class="form-label">nombre</label>
+                            <input type="text" class="form-control is-valid" id="validationServer01" value="Nombre" required>
+                            <div class="valid-feedback">
+                                Se ve bien!
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationServerUsername" class="form-label">mail</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                                <input type="email" class="form-control is-invalid" id="validationServerUsername"
+                                    aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                                    Por favor, ingrese un mail valido
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationServer03" class="form-label">Ciudad</label>
+                            <input type="text" class="form-control is-invalid" id="validationServer03"
+                                aria-describedby="validationServer03Feedback" required>
+                            <div id="validationServer03Feedback" class="invalid-feedback">
+                                Proporcione una ciudad válida.
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationServer04" class="form-label">Estado civil</label>
+                            <select class="form-select is-invalid" id="validationServer04"
+                                aria-describedby="validationServer04Feedback" required>
+                                <option selected disabled value="">Elije...</option>
+                                <option>soltero</option>
+                                <option>casado</option>
+                                <option>en pareja</option>
+                                <option>otro</option>
+                            </select>
+                            <div id="validationServer04Feedback" class="invalid-feedback">
+                                Proporcione una valor correcto.
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+                                    aria-describedby="invalidCheck3Feedback" required>
+                                <label class="form-check-label" for="invalidCheck3">
+                                    acepto términos y condiciones.
+                                </label>
+                                <div id="invalidCheck3Feedback" class="invalid-feedback">
+                                    Debe estar de acuerdo antes de enviar.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </section>
+        </section>
+    </main>
+    <!-- pie de la pagina -->
+    <footer class="footer" id="nosotros">
+        <section class="footer_head">
+            <section class="footer_head_cuerpo general bg-primary">
+                <ul class="redes_pie">
+                    <li>
+                        <a href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                    </li></a>
+                    <li><a href="">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                    </li></a>
+                    <li><a href="">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                    </li></a>
+                    <li><a href="">
+                            <ion-icon name="logo-twitch"></ion-icon>
+                    </li></a>
+                    <li><a href="">
+                            <ion-icon name="logo-vercel"></ion-icon>
+                    </li></a>
+                </ul>
+            </section>
+        </section>
+        <section class="footer_bot">
+            <!-- seccion copyright-->
+            <section class="footer_bot_cuerpo general">
+                <p>© 2022, Todos los derechos reservados <strongg>noticias guille</strongg>
+            </section>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+<!-- col-sm-3-->
+
+</html>
