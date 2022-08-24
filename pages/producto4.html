@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap merchandising</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="color_nav navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">merchandising</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="producto_principal">
+            <div class="caja_producto_1 row">
+                <section class="img_prod col-sm-5 bg-body p-1">
+                        <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/219/431/products/1b274af7-145d-4cb7-9ba9-854003374525-2c90bdaa88c2365e1016555173230682-1024-1024.jpg" class="rounded img-fluid" alt="bermuda colors">
+                        <span class="sale">sale</span>
+                </section>
+                <section class="info_prod col-sm-7">
+                    <div class="compra_producto">
+                        <h1 class="top_auto">Pantalón Race Black</h1>
+                        <p class="precio2 top_auto">$14.990</p>
+                        <p class="cuotas top_auto"><ion-icon name="card-outline"></ion-icon><strong> cuotas sin interés de </strong>: $1.249,17</p>
+                        <a class="medio_compra top_auto" href="#"><strong>mas medios de pagos</strong></a>
+                        <h2 class="top_auto">talles:</h2>
+                        <ul class="talle top_auto">
+                            <li><a href="#">s</a></li>
+                            <li><a href="#">m</a></li>
+                            <li><a href="#">l</a></li>
+                            <li><a href="#">xl</a></li>
+                        </ul>
+                        <select class="form-select top_auto" aria-label="Default select example">
+                            <option selected>cantidad:</option>
+                            <option value="1">1 unidad</option>
+                            <option value="2">2 unidades</option>
+                            <option value="3">3 unidades</option>
+                            <option value="3">4 unidades</option>
+                        </select>
+                        <a class="carrito top_auto" href="#"><ion-icon name="cart-outline"></ion-icon> añadir al carrito</a>
+                        
+                        <a href="#descripcion_prod" class="descrip_prod top_auto"><ion-icon name="arrow-down-outline"></ion-icon>ver descripcion y talle</a>
+                    </div>
+                </section>
+                <section class="slayer col-sm-12">
+                    <div class="slayer_img row">
+                        <img class="rounded img-fluid col-4"src="https://d3ugyf2ht6aenh.cloudfront.net/stores/219/431/products/1b274af7-145d-4cb7-9ba9-854003374525-2c90bdaa88c2365e1016555173230682-480-0.jpg"  alt="Pantalón Race Black">
+                        <img class="rounded img-fluid col-4"src="https://d3ugyf2ht6aenh.cloudfront.net/stores/219/431/products/7baaf58a-c15c-4e2e-abc8-f04aee989bc9-6a00f4cf5c2e6fb13b16555173284037-480-0.jpg"  alt="Pantalón Race Black">
+                        <img class="rounded img-fluid col-4"src="https://d3ugyf2ht6aenh.cloudfront.net/stores/219/431/products/01a05123-bf4b-4e5d-944f-b1fb4f6b43c3-69b1b517393c41e9a816555173344872-480-0.jpg"  alt="Pantalón Race Black">
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section id="descripcion_prod" class="detaye_prod row">
+                <section class="col-sm-5 descripcion_general">
+                    <h3>Descripción</h3>
+                    <p>Pantalón de tiro medio , con serigrafía en pierna derecha.</p>
+                    <p>Terminación con puño elástico.</p>
+                    <p>Color: Negro.</p>
+                    <p>Material: Frisa</p>
+                    <!-- cuidados del producto -->
+                    <h3>Cuidados</h3>
+                    <p>Lavar en agua fria.</p>
+                    <p>A mano del lado del reves.</p>
+                    <p>No usar lavandina.</p>
+                    <p>No secar a maquina</p>
+                    <p>No planchar sobre estampa.</p>
+                </section>
+                <section class="col-sm-7 tabla_producto">
+                    <h3>Medidas aproximadas</h3>
+                    <div class="th_producto">
+                        <!-- titulo -->
+                        <div class="th_1"><p>talle</p></div>
+                        <div class="th_2"><p>ancho</p></div>
+                        <div class="th_3"><p>largo</p></div>
+                        <div class="th_4"><p>mangas</p></div>
+                        <!-- COLUMNA 1 -->
+                        <div class="col1_r1"><p>S</p></div>
+                        <div class="col1_r2"><p>M</p></div>
+                        <div class="col1_r3"><p>L</p></div>
+                        <div class="col1_r4"><p>XL</p></div>
+                        <!-- columna 2 -->
+                        <div class="col2_r1"><p>46 cm</p></div>
+                        <div class="col2_r2"><p>48 cm</p></div>
+                        <div class="col2_r3"><p>50 cm</p></div>
+                        <div class="col2_r4"><p>51 cm</p></div>
+
+                        <!-- COLUMNA 3-->
+                        <div class="col3_r1"><p>48 cm</p></div>
+                        <div class="col3_r2"><p>50 cm</p></div>
+                        <div class="col3_r3"><p>52 cm</p></div>
+                        <div class="col3_r4"><p>23 cm</p></div>
+
+                        <!-- COLUMNA 4-->
+                        <div class="col4_r1"><p>97 cm</p></div>
+                        <div class="col4_r2"><p>98 cm</p></div>
+                        <div class="col4_r3"><p>100 cm</p></div>
+                        <div class="col4_r4"><p>102 cm</p></div>
+                    </div>
+                </section>
+        </section>
+    </main>
+    <!-- pie de la pagina -->
+    <footer class="footer" id="nosotros">
+        <section class="footer_head">
+            <section class="footer_head_cuerpo general bg-primary">
+                <ul class="redes_pie">
+                    <li>
+                        <a href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                    </li></a>
+                    <li><a href="">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                    </li></a>
+                    <li><a href="">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                    </li></a>
+                    <li><a href="">
+                            <ion-icon name="logo-twitch"></ion-icon>
+                    </li></a>
+                    <li><a href="">
+                            <ion-icon name="logo-vercel"></ion-icon>
+                    </li></a>
+                </ul>
+            </section>
+        </section>
+        <section class="footer_bot">
+            <!-- seccion copyright-->
+            <section class="footer_bot_cuerpo general">
+                <p>© 2022, Todos los derechos reservados <strongg>noticias guille</strongg>
+            </section>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+<!-- col-sm-3-->
+
+</html>
