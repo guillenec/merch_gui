@@ -295,7 +295,9 @@ footer {
 }
 
 /* PAGINA GENERICA PRODUCTO */
-.producto_principal {
+.producto_principal,
+.nosotros_page,
+.ayuda {
     width: 100%;
     height: auto;
 }
@@ -663,7 +665,14 @@ footer {
     border-radius: 0 0 20px 0;
 }
 
-
+.ayuda h1{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+.ayuda .preguntas_frecuentes{
+    margin-top: 50px;
+}
 
 @media (max-width: 991.98px) {
 
