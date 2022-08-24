@@ -51,9 +51,14 @@ main {
     object-fit: cover;
 }
 
-.destacados, .tipo_prod, .onsale, .footer, .formulario_contact{
+.destacados,
+.tipo_prod,
+.onsale,
+.footer,
+.formulario_contact {
     margin-top: 80px;
 }
+
 /* FIN BANNER */
 
 /*SECCION DE GENERALES*/
@@ -281,12 +286,384 @@ footer {
     font-size: 18px;
     text-align: left;
 }
+
 /* ++ Fin Footer ++ */
 /* ++ CONTACTOS ++ */
-.contenedor_form{
+.contenedor_form {
     width: 700px;
     margin: auto;
 }
+
+/* PAGINA GENERICA PRODUCTO */
+.producto_principal {
+    width: 100%;
+    height: auto;
+}
+
+.caja_producto_1 {
+    width: 100%;
+    margin-top: 50px;
+    --bs-gutter-x: 0rem;
+}
+
+.img_prod,
+.info_prod,
+.slayer {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.img_prod {
+    height: auto;
+    position: relative;
+}
+
+.img_prod>img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caja_producto_1 span {
+    position: absolute;
+    display: block;
+    width: min-content;
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 5px 0 5px 0;
+    font-size: 20px;
+    font-weight: 600;
+    top: 0;
+    left: 0;
+}
+
+.info_prod {
+    height: auto;
+}
+
+/* informacion producto */
+.compra_producto {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.compra_producto p {
+    margin-bottom: 0;
+}
+
+.compra_producto h1,
+.compra_producto h2 {
+    margin-bottom: 0;
+}
+
+.compra_producto h1 {
+    position: relative;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 0;
+}
+
+.compra_producto p.precio1,
+.compra_producto p.precio2 {
+    position: relative;
+    display: inline-block;
+    width: min-content;
+    padding: 0;
+}
+
+.compra_producto p.precio1 {
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+.compra_producto p.precio2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.compra_producto p.cuotas,
+.compra_producto a.carrito,
+.compra_producto a.descrip_prod {
+    position: relative;
+    color: red;
+    font-size: 17px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.compra_producto p.cuotas>ion-icon,
+.compra_producto a.carrito ion-icon,
+.compra_producto a.descrip_prod ion-icon {
+    font-size: 30px;
+    padding: 0 10px 0 0;
+}
+
+.compra_producto strong {
+    font-weight: 600;
+}
+
+.compra_producto a.medio_compra,
+.compra_producto h2 {
+    position: relative;
+    display: block;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.compra_producto a.medio_compra {
+    text-decoration: none;
+    color: black;
+
+}
+
+.compra_producto h2 {
+    color: black;
+}
+
+.compra_producto ul.talle {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.compra_producto .talle li {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: solid 1px black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.compra_producto .talle li a {
+    position: absolute;
+    background: #fff;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.compra_producto .talle li:hover {
+    border: solid 1px white;
+    transition: .7s;
+}
+
+.compra_producto .talle li a:hover {
+    color: white;
+    background: #0D6EFD;
+    transition: .7s;
+}
+
+.compra_producto select {
+    display: block;
+    position: relative;
+    width: min-content;
+    color: white;
+    background: #0D6EFD;
+}
+
+.compra_producto select option {
+    color: white;
+}
+
+.compra_producto a.carrito {
+    position: relative;
+    width: 200px;
+    background-color: #0D6EFD;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.top_auto {
+    margin-top: 20px;
+}
+
+/* SLAYER DE IMAGENES */
+.slayer {
+    position: relative;
+    height: auto;
+    margin-top: 50px;
+}
+
+.slayer .slayer_img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.slayer .slayer_img img {
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+.detaye_prod {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    --bs-gutter-x: 0;
+}
+.descripcion_general {
+    position: relative;
+    height: 100%;
+}
+.descripcion_general h3{
+    margin-top: 30px;
+}
+.descripcion_general p{
+    line-height: 18px;
+}
+
+.tabla_producto {
+    position: relative;
+    height: 100%;
+}
+.tabla_producto h3{
+    width: 90%;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+.th_producto {
+    width: 90%;
+    height: 350px;
+    margin: 30px 0px auto auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center
+}
+.th_1,.th_2,.th_3,.th_4{
+    width: 100%;
+    height: 100%;
+    background: #0D6EFD;
+    display: grid;
+    place-content: center;
+}
+.col1_r1,.col1_r2,.col1_r3,.col1_r4,
+.col2_r1,.col2_r2,.col2_r3,.col2_r4,
+.col3_r1,.col3_r2,.col3_r3,.col3_r4,
+.col4_r1,.col4_r2,.col4_r3,.col4_r4{
+    width: 100%;
+    height: 100%;
+    background: rgb(80, 205, 247);
+    display: grid;
+    place-content: center;
+} 
+.th_producto p{
+    margin-bottom: 0;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+}
+.th_1 {
+    grid-area: 1 / 1 / 2 / 3;
+    border-radius: 20px 0 0 0;
+}
+.th_2 {
+    grid-area: 1 / 3 / 2 / 5;
+}
+.th_3 {
+    grid-area: 1 / 5 / 2 / 7;
+}
+.th_4 {
+    grid-area: 1 / 7 / 2 / 9;
+}
+.col1_r1 {
+    grid-area: 2 / 1 / 3 / 3;
+}
+
+.col1_r2 {
+    grid-area: 3 / 1 / 4 / 3;
+}
+
+.col1_r3 {
+    grid-area: 4 / 1 / 5 / 3;
+}
+
+.col1_r4 {
+    grid-area: 5 / 1 / 6 / 3;
+}
+
+.col2_r1 {
+    grid-area: 2 / 3 / 3 / 5;
+}
+
+.col3_r1 {
+    grid-area: 2 / 5 / 3 / 7;
+}
+
+.col4_r1 {
+    grid-area: 2 / 7 / 3 / 9;
+}
+
+.col2_r2 {
+    grid-area: 3 / 3 / 4 / 5;
+}
+
+.col2_r3 {
+    grid-area: 4 / 3 / 5 / 5;
+}
+
+.col2_r4 {
+    grid-area: 5 / 3 / 6 / 5;
+}
+
+.col3_r2 {
+    grid-area: 3 / 5 / 4 / 7;
+}
+
+.col3_r3 {
+    grid-area: 4 / 5 / 5 / 7;
+}
+
+.col3_r4 {
+    grid-area: 5 / 5 / 6 / 7;
+}
+
+.col4_r2 {
+    grid-area: 3 / 7 / 4 / 9;
+}
+
+.col4_r3 {
+    grid-area: 4 / 7 / 5 / 9;
+}
+
+.col4_r4 {
+    grid-area: 5 / 7 / 6 / 9;
+    border-radius: 0 0 20px 0;
+}
+
+
 
 @media (max-width: 991.98px) {
 
@@ -296,9 +673,15 @@ footer {
         width: 95%;
         margin: auto;
     }
-    .destacados, .tipo_prod, .onsale, .footer,.formulario_contact{
+
+    .destacados,
+    .tipo_prod,
+    .onsale,
+    .footer,
+    .formulario_contact {
         margin-top: 80px;
     }
+
     .color_nav {
         height: auto;
     }
@@ -318,7 +701,8 @@ footer {
         width: 100%;
         height: auto;
     }
-    .contenedor_form{
+
+    .contenedor_form {
         width: 80%;
         margin: auto;
     }
@@ -332,9 +716,15 @@ footer {
         width: 100%;
         margin: auto;
     }
-    .destacados, .tipo_prod, .onsale, .footer, .formulario_contact{
+
+    .destacados,
+    .tipo_prod,
+    .onsale,
+    .footer,
+    .formulario_contact {
         margin-top: 80px;
     }
+
     .tipo_prod {
         width: 100%;
         height: auto;
@@ -349,9 +739,16 @@ footer {
     .onsale .card {
         margin-top: 20px;
     }
-    .contenedor_form{
+
+    .contenedor_form {
         width: 80%;
         margin: auto;
+    }
+    .detaye_prod {
+        position: relative;
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
     }
 }
 
@@ -363,9 +760,15 @@ footer {
         width: 100%;
         margin: auto;
     }
-    .destacados, .tipo_prod, .onsale, .footer,.formulario_contact{
+
+    .destacados,
+    .tipo_prod,
+    .onsale,
+    .footer,
+    .formulario_contact {
         margin-top: 80px;
     }
+
     .carousel-inner {
         height: auto;
     }
@@ -397,8 +800,17 @@ footer {
     .onsale .card {
         margin-top: 20px;
     }
-    .contenedor_form{
+
+    .contenedor_form {
         width: 85%;
         margin: auto;
     }
+
+
+.detaye_prod {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
 }
