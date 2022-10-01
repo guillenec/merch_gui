@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-    <h1>pagina merchandising.. se correspondera con una seccion aparte para la pagina principal web guille</h1>
+    <h1 style="color=blue; font-size="20px">pagina merchandising.. se correspondera con una seccion aparte para la pagina principal web guille</h1>
     </header>
 </body>
 </html>
