@@ -30,9 +30,13 @@ Esta es una web de pruebas, para una entrega del curso de desarrollo web de code
 
 # :pushpin: Alguna capturas de la web. 
 ![screenshot of HTTRiRi website](https://res.cloudinary.com/dpiwmbsog/image/upload/v1665806229/imgs/capt3_wuvrpl.png)
+
 <br>
+
 ![screenshot of HTTRiRi website](https://res.cloudinary.com/dpiwmbsog/image/upload/v1665806223/imgs/ayuda_nrnjni.png)
+
 <br>
+
 ![screenshot of HTTRiRi website](https://res.cloudinary.com/dpiwmbsog/image/upload/v1665806391/imgs/cap4_cjjnzw.png)
 
 <br>
