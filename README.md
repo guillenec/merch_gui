@@ -9,7 +9,6 @@
 
 ## :pushpin: Vistazo de Merchandicing
 ![screenshot of HTTRiRi website](https://res.cloudinary.com/dpiwmbsog/image/upload/v1665805388/imgs/capt1_jfsr6n.png)
-    <h1 style="color=blue; font-size="20px">pagina merchandising.. se correspondera con una seccion aparte para la pagina principal web guille</h1>
 
 <br>
 
