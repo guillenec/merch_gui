@@ -1,7 +1,7 @@
 <div> 
   <h1 align="center">Merchandising</h1>
   <p>
-  Pagina merchadising para la entrega del segundo proyecto de coderhouse, en la cual se usa bootstrap, aplicando tablas, targetas, carruseles, grillas y flexbobox, entre otras cosas. 
+  Página merchadising para la entrega del segundo proyecto de coderhouse, en la cual se usa bootstrap, aplicando tablas, tarjetas, carruseles, grillas y flexbobox, entre otras cosas. 
   </p>
 </div>
 
@@ -14,11 +14,11 @@
 
 ## :desktop_computer: Contenido de la pagina.
 
-1. inicio: se incluye un banner de imagenes, targetas modificadas, botones modificados, el header generico de bootstrap y un footer basico con redes sociales.
+1. inicio: se incluye un banner de imagenes, tarjetas modificadas, botones modificados, el header generico de bootstrap y un footer basico con redes sociales.
 
 2. nosotros: sin contenido actualmente ya que es de pruba.
 
-3. preguntas frequentes: En esta pagina se usa un acordeon de bootstrap donde se proporcionan pasos para resolver problemas generales.
+3. preguntas frequentes: En esta página se usa un acordeon de bootstrap donde se proporcionan pasos para resolver problemas generales.
 
 4. contacto: formulario de contactos de bootstrap.
 
